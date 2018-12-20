@@ -7,6 +7,8 @@ import Login from './Login';
 import Activities from './Activities';
 import Time from './Time';
 import Location from './Location';
+import Choice from './Choice';
+import Register from './Register';
 
 
 class App extends Component {
@@ -16,6 +18,8 @@ class App extends Component {
         <Switch>
           <Route exact path='/' component= {Welcome} />
           <Route exact path='/login' component= {Login} />
+          <Route exact path='/register' component= {Register} />
+          <Route exact path='/choice' component= {Choice} />
           <Route exact path='/activities' component= {Activities} />
           <Route exact path='/time' component= {Time} />
           <Route exact path='/location' component= {Location} />

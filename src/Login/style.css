@@ -2,7 +2,7 @@
   width: 30%;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 60%;
   transform: translate(-50%, -50%);
 }
 
@@ -10,23 +10,14 @@
   width: 30%;
   position: absolute;
   top: 59%;
-  left: 50%;
+  left: 60%;
   transform: translate(-50%, -50%);
 }
 
-.registerButton {
-  width: 10%;
-  border-radius: 2em;
-  position: absolute;
-  background-color: #7dc184;
-  top: 68%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 .registerButton:hover {
   cursor: pointer;
-  background-color: #558e5b;
+  background-color: #DFDFD4;
 }
 
 input {
@@ -34,4 +25,21 @@ input {
   width: 45%;
   padding: 5px;
   margin-left: 10px;
+}
+
+.loginPageButton {
+  font-size: 1em;
+  width: 15%;
+  padding: 10px;
+  border-radius: 2em;
+  position: absolute;
+  background-color: white;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loginPageButton:hover {
+  cursor: pointer;
+  background-color: #DFDFD4;
 }

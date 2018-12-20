@@ -1,0 +1,36 @@
+.activityBox {
+  background-image: url("/pie_chart.png");
+  height: 200px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 1px solid;
+  text-align: center;
+  background-color: #846954;
+  border-radius: 2em;
+  text-decoration: none;
+}
+
+.dateBox {
+  background-image: url("/bar_chart.png");
+  height: 200px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 1px solid;
+  text-align: center;
+  background-color: #846954;
+  border-radius: 2em;
+}
+
+.activityBox:hover, .dateBox:hover {
+  cursor: pointer;
+  background-color: #543B23;
+}
+
+.wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}

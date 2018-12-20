@@ -10,22 +10,27 @@ class Welcome extends Component {
   render() {
 
     return (
-      <div>
-        <Nav />
-        <div>
-          <h1 className='header' > Logo </h1>
-            <div className='welcome'>
-              <Link to ="/login">
-                <button className="loginButton"> Sign in </button>
-              </Link>
 
-              <Link to ="/register">
-                <button className="registerButton"> Register </button>
-              </Link>
+        <div className='background'>
+          <Nav />
+          <div>
+            <div className='logoHeader'>
+              <img className='header' src='tree_circle_logo_rgb.png' />
+              <h1 className='planiteers'> planiteers </h1>
+            </div>
+                <div className='welcome'>
 
+                  <Link to ="/login">
+                    <button className="loginButton"> sign in </button>
+                  </Link>
+
+                  <Link to ="/register">
+                    <button className="registerButton"> register </button>
+                  </Link>
+                </div>
             </div>
         </div>
-      </div>
+
     )
   }
 }

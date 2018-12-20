@@ -1,7 +1,22 @@
 .welcome {
   display: grid;
   justify-content: center;
-  top: 50%;
+  margin: 50px;
+}
+
+.logoHeader {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  color: #DFDFD4;
+  font-family: 'Ventura' 'sans-serif';
+  font-size: 2em;
+}
+
+.planiteers {
+  position: relative;
+  top: 45px;
+  padding-left: 15px;
 }
 
 .header {
@@ -12,29 +27,53 @@
 
 .registerButton {
   font-size: 1em;
-  width: 10%;
-  padding: 5px;
+  width: 15%;
+  padding: 10px;
   border-radius: 2em;
   position: absolute;
-  background-color: #7dc184;
-  top: 68%;
+  background-color: #81BE1C;
+  border: #81BE1C;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: underline;
+}
+
+.loginButton {
+  font-size: 1em;
+  width: 15%;
+  color: white;
+  padding: 10px;
+  border-radius: 2em;
+  position: absolute;
+  background-color: #543B23;
+  border: #543B23;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .loginButton {
-  font-size: 1em;
-  width: 10%;
-  padding: 5px;
+  width: 15%;
   border-radius: 2em;
   position: absolute;
-  background-color: #7dc184;
-  top: 60%;
+  background-color: #543B23;
+  top: 68%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.registerButton:hover, .loginButton:hover {
+
+.loginButton:hover {
   cursor: pointer;
-  background-color: #558e5b;
+  background-color: #DFDFD4;
+}
+
+.registerButton:hover {
+  cursor: pointer;
+}
+
+.background {
+  background-color: #81BE1C;
+  height: 700px;
 }

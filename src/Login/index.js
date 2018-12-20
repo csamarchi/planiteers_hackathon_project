@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './style.css';
 import Nav from '../Nav';
+import { Link } from 'react-router-dom';
 
 class Login extends Component {
   constructor() {
@@ -18,19 +19,19 @@ class Login extends Component {
   render() {
 
     return (
-      <div>
+      <div className='background'>
         <Nav />
-          <form >
-          <label className="username">
-            Username:
-            <input type='text' name='username' placeholder='username' onChange={this.handleChange}/>
-          </label>
-          <label className="password">
-            Password:
-            <input type='password' name='password' placeholder='password' onChange={this.handleChange}/>
-          </label>
-            <input className="registerButton" type='Submit' value='Login'/>
-        </form>
+
+            <form >
+              <label className="username">
+                <input type='text' name='username' placeholder='username' onChange={this.handleChange}/>
+              </label>
+              <label className="password">
+                <input type='password' name='password' placeholder='password' onChange={this.handleChange}/>
+              </label>
+                <Link to='/choice'> <input className="loginPageButton" type='Submit' value='Login'/> </Link>
+            </form>
+
       </div>
     )
   }

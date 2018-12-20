@@ -13,10 +13,10 @@ class Nav extends Component {
     return(
       <nav className = "navBar">
         <ul>
-          <Link to='/'> </Link>
-          <Link to='/activities'>Activity</Link>
-          <Link to ='/time'>Time</Link>
-          <Link to ='/location'>Location</Link>
+          <Link to='/'> home</Link>
+          <Link to='/activities'>activity</Link>
+          <Link to ='/time'>time</Link>
+          <Link to ='/location'>location</Link>
         </ul>
       </nav>
     )
