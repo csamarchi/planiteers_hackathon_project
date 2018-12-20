@@ -1,0 +1,40 @@
+.welcome {
+  display: grid;
+  justify-content: center;
+  top: 50%;
+}
+
+.header {
+  font-size: 90px;
+  text-shadow: 2px 2px;
+  text-align: center;
+}
+
+.registerButton {
+  font-size: 1em;
+  width: 10%;
+  padding: 5px;
+  border-radius: 2em;
+  position: absolute;
+  background-color: #7dc184;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loginButton {
+  font-size: 1em;
+  width: 10%;
+  padding: 5px;
+  border-radius: 2em;
+  position: absolute;
+  background-color: #7dc184;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.registerButton:hover, .loginButton:hover {
+  cursor: pointer;
+  background-color: #558e5b;
+}
