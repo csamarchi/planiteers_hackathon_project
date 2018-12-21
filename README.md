@@ -1,7 +1,7 @@
 # planiteers
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-A project I made in a day `hackathon` with 4 UX designers. We came up with the idea to make an app that allows users to find and participate in local environmentally helpful activities that will award them points.
+A project I made in a day `hackathon` with 4 other UX designers. We came up with the idea to make an app that allows users to find and participate in local environmentally helpful activities that will award them points. 
 
 # User flow:
 
@@ -19,9 +19,9 @@ A project I made in a day `hackathon` with 4 UX designers. We came up with the i
 
 ![alt text](/public/activity_shot.png)
 
-![alt text](/public/choose_time_shot.png) ![alt text](/public/points_shot.png)
+![alt text](/public/choose_time_shot.png)
 
-
+![alt text](/public/points_shot.png)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
