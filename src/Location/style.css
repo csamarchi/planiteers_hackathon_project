@@ -1,0 +1,32 @@
+.locationWrapper2 {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.gillis, .auditorium, .stacy, .nicholas, .republic, .waller  {
+ text-align: center;
+ margin: 20px;
+ height: 200px;
+ width: 200px;
+ background-color: #7dc184;
+ border-radius: 50%;
+ display: inline-block;
+ background-color: #846954;
+}
+
+.gillis:hover, .auditorium:hover, .stacy:hover, .nicholas:hover, .republic:hover, .waller:hover  {
+  cursor: pointer;
+  background-color: #543B23;
+}
+
+.locationButtonText {
+  position: relative;
+  top: 30%;
+  color: white;
+}
+
+.div {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}

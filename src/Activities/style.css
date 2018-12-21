@@ -1,5 +1,4 @@
 .activityWrapper {
-  display: grid;
   display: inline-flex;
   flex-wrap: wrap;
 }
@@ -16,7 +15,7 @@
 
 .plantTree:hover, .waterTree:hover, .pickFruit:hover, .market:hover, .maintenance:hover, .transport:hover  {
   cursor: pointer;
-  background-color: #DFDFD4;
+  background-color: #846954;
 }
 
 .plantTree {
@@ -53,4 +52,10 @@
   position: relative;
   top: 92%;
   color: white;
+}
+
+.div {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
 }
