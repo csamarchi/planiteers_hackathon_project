@@ -17,9 +17,18 @@
   font-family: "Helvetica",Helvetica,Arial,sans-serif;
   font-size: 15px;
   line-height: 0px;
+  bottom: 130%;
 }
 
 .navBar a:hover {
     color: white;
     text-decoration: none;
   }
+
+.logo {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: 15px;
+  left: 5%;
+}

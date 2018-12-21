@@ -13,6 +13,7 @@ class Nav extends Component {
     return(
       <nav className = "navBar">
         <ul>
+          <Link to='/choice'> <img className='logo' src='tree_circle_logo_rgb.png' /> </Link>
           <Link to='/'> home</Link>
           <Link to='/activities'>activity</Link>
           <Link to ='/location'>location</Link>
