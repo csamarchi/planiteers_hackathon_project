@@ -3,7 +3,7 @@
 .navBar {
   display: flex;
   justify-content: space-around;
-  background-color: white;
+  background-color: #DFDFD4;
   height: 50px;
   text-align: center;
   color: black;

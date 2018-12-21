@@ -1,31 +1,28 @@
 .activityBox {
-  background-image: url("/pie_chart.png");
+  background-image: url("/choose_activity.png");
+  background-size: cover;
   height: 200px;
-  width: 300px;
+  width: 200px;
   background-repeat: no-repeat;
   background-size: 100%;
-  border: 1px solid;
+  border-radius: 50%;
   text-align: center;
-  background-color: #846954;
-  border-radius: 2em;
-  text-decoration: none;
 }
 
 .dateBox {
-  background-image: url("/bar_chart.png");
+  background-image: url("/choose_by_date-time.png");
+  background-size: cover;
   height: 200px;
-  width: 300px;
+  width: 200px;
+  border-radius: 50%;
   background-repeat: no-repeat;
   background-size: 100%;
-  border: 1px solid;
   text-align: center;
-  background-color: #846954;
-  border-radius: 2em;
 }
 
 .activityBox:hover, .dateBox:hover {
   cursor: pointer;
-  background-color: #543B23;
+  background-color: #846954;
 }
 
 .wrapper {
@@ -33,4 +30,11 @@
   justify-content: center;
   align-items: center;
   padding: 100px;
+}
+
+.choiceText {
+  position: relative;
+  top: -30px;
+  color: white;
+  text-decoration: underline;
 }

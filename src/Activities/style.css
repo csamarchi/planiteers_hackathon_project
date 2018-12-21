@@ -1,9 +1,56 @@
-.circle {
+.activityWrapper {
+  display: grid;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.plantTree, .waterTree, .pickFruit, .market, .maintenance, .transport  {
  text-align: center;
- margin: 10px;
+ margin: 20px;
  height: 200px;
  width: 200px;
  background-color: #7dc184;
  border-radius: 50%;
  display: inline-block;
+}
+
+.plantTree:hover, .waterTree:hover, .pickFruit:hover, .market:hover, .maintenance:hover, .transport:hover  {
+  cursor: pointer;
+  background-color: #DFDFD4;
+}
+
+.plantTree {
+  background-image: url('/plant_tree.png');
+  background-size: cover;
+}
+
+.waterTree {
+  background-image: url('/water_tree.png');
+  background-size: cover;
+}
+
+.pickFruit {
+  background-image: url('/pick_fruit.png');
+  background-size: cover;
+}
+
+.market {
+  background-image: url('/farmers_market.png');
+  background-size: cover;
+}
+
+.maintenance {
+  background-image: url('/tree_maint.png');
+  background-size: cover;
+}
+
+.transport {
+  background-image: url('/transport.png');
+  background-size: cover;
+}
+
+.categoryButtonText {
+  position: relative;
+  top: 92%;
+  color: white;
 }

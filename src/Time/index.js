@@ -10,11 +10,11 @@ class Time extends Component {
   render() {
 
     return (
-      <div>
+      <div className='background'>
         <Nav />
         <div>
           <h1 className='header' > Choose a Time </h1>
-
+          
         </div>
       </div>
     )

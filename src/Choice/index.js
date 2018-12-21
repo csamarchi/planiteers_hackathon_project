@@ -18,13 +18,17 @@ class Choice extends Component {
 
             <Link to='/activities'>
             <div className='activityBox'>
-              <h1> Choose By Activity </h1>
+              <h3 className='choiceText'> Choose By Activity </h3>
             </div>
             </Link>
             <br/>
+            <br/>
+            <br/>
+            <Link to='/time'>
             <div className='dateBox'>
-              <h1> Choose By Date/Time </h1>
+              <h3 className='choiceText'> Choose By Date/Time </h3>
             </div>
+            </Link>
           </div>
 
         </div>

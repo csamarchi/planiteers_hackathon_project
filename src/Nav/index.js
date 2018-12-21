@@ -15,8 +15,8 @@ class Nav extends Component {
         <ul>
           <Link to='/'> home</Link>
           <Link to='/activities'>activity</Link>
-          <Link to ='/time'>time</Link>
           <Link to ='/location'>location</Link>
+          <Link to ='/time'>time</Link>
         </ul>
       </nav>
     )

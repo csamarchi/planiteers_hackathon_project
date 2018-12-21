@@ -1,7 +1,51 @@
 .name {
     width: 30%;
     position: absolute;
-    top: 40%;
-    left: 50%;
+    top: 50%;
+    left: 70%;
     transform: translate(-50%, -50%);
+}
+
+.email {
+  width: 30%;
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.registerUsername {
+  width: 30%;
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.registerPassword {
+  width: 30%;
+  position: absolute;
+  top: 80%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.signUpButton {
+  font-size: 1em;
+  width: 15%;
+  color: white;
+  padding: 10px;
+  border-radius: 2em;
+  position: absolute;
+  background-color: #543B23;
+  border: #543B23;
+  top: 90%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+}
+
+.signUpButton:hover {
+  cursor: pointer;
+  background-color: #DFDFD4;
+  color: #543B23;
 }
