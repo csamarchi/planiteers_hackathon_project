@@ -1,4 +1,40 @@
 .timeWrapper {
-  display: flex;
+  display: grid;
   justify-content: center;
+  padding: 10px;
+}
+
+.timeText {
+  font-family: 'Ventura' 'sans-serif';
+  color: white;
+  padding: 10px;
+  align-items: center;
+}
+
+select {
+  width: 90%;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+.submitTime {
+  font-size: 1em;
+  width: 14%;
+  padding: 10px;
+  border-radius: 2em;
+  position: absolute;
+  background-color: #543B23;
+  border: #543B23;
+  color: white;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.submitTime:hover {
+  cursor: pointer;
+  background-color: #DFDFD4;
+  color: #543B23;
 }

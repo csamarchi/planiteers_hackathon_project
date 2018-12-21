@@ -15,8 +15,9 @@
 
 .planiteers {
   position: relative;
-  top: 45px;
+  top: 70px;
   padding-left: 15px;
+  font-size: 2em;
 }
 
 .header {
