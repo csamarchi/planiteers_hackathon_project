@@ -5,7 +5,7 @@ A project I made in a day `hackathon` with 4 UX designers. We came up with the i
 
 # User flow:
 
-![alt text](/public/USER FLOW.png)
+![alt text](/public/user_flow.png)
 
 # Color pallet:
 
