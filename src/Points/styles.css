@@ -1,0 +1,52 @@
+.headers {
+  font-size: 4em;
+  text-align: center;
+  color: #DFDFD4;
+  font-family: 'Ventura' 'sans-serif';
+}
+
+.points {
+  text-align: center;
+  color: #543B23;
+  font-size: 4em;
+  font-family: 'Ventura' 'sans-serif';
+}
+
+.pointsAccept {
+  font-size: 1em;
+  width: 14%;
+  padding: 10px;
+  border-radius: 2em;
+  position: absolute;
+  background-color: #543B23;
+  border: #543B23;
+  color: white;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pointsAccept:hover {
+  cursor: pointer;
+  background-color: #DFDFD4;
+  color: #543B23;
+}
+
+.pointsDecline{
+  font-size: 1em;
+  width: 15%;
+  padding: 10px;
+  border-radius: 2em;
+  position: absolute;
+  background-color: #81BE1C;
+  border: #81BE1C;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: underline;
+}
+
+.pointsDecline:hover {
+  cursor: pointer;
+  color: white;
+}

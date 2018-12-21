@@ -13,24 +13,21 @@ class Choice extends Component {
       <div>
         <div className='background'>
           <Nav />
-
-          <div className='wrapper'>
-
-            <Link to='/activities'>
-            <div className='activityBox'>
-              <h3 className='choiceText'> Choose By Activity </h3>
+            <div className='wrapper'>
+              <Link to='/activities'>
+                <div className='activityBox'>
+                  <h3 className='choiceText'> Choose By Activity </h3>
+                </div>
+              </Link>
+                <br/>
+                <br/>
+                <br/>
+              <Link to='/time'>
+                <div className='dateBox'>
+                  <h3 className='choiceText'> Choose By Date/Time </h3>
+                </div>
+              </Link>
             </div>
-            </Link>
-            <br/>
-            <br/>
-            <br/>
-            <Link to='/time'>
-            <div className='dateBox'>
-              <h3 className='choiceText'> Choose By Date/Time </h3>
-            </div>
-            </Link>
-          </div>
-
         </div>
       </div>
     )

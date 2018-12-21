@@ -9,6 +9,7 @@ import Time from './Time';
 import Location from './Location';
 import Choice from './Choice';
 import Register from './Register';
+import Points from './Points';
 
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
           <Route exact path='/activities' component= {Activities} />
           <Route exact path='/time' component= {Time} />
           <Route exact path='/location' component= {Location} />
+          <Route exact path='/points' component= {Points} />
         </Switch>
       </div>
     );

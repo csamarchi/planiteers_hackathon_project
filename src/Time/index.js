@@ -68,7 +68,7 @@ class Time extends Component {
               <option> 5:00 PM</option>
             </select>
           </form>
-          <button className='submitTime'> Confirm </button>
+            <Link to ='/points'> <button className='submitTime'> Confirm </button> </Link>
           </div>
           </div>
         </div>
