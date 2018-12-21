@@ -9,7 +9,6 @@ A project I made in a day `hackathon` with 4 other UX designers. We came up with
 
 # Color pallet:
 
-![alt text](/public/color_pallet.png)
 
 # Screenshots:
 
